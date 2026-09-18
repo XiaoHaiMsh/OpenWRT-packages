@@ -29,6 +29,7 @@ jobs:
         luci-app-substore
         luci-app-wolultra
         luci-app-adguardhome
+        luci-app-homeproxy
 
     steps:
       - uses: actions/checkout@v7
