@@ -22,9 +22,7 @@ PKG_NAME:=luci-app-homeproxy
 
 define Package/luci-app-homeproxy/conffiles
 /etc/config/homeproxy
-/etc/homeproxy/cache/
 /etc/homeproxy/certs/
-/etc/homeproxy/ruleset/
 /etc/homeproxy/dashboard/
 /etc/homeproxy/resources/direct_list.txt
 /etc/homeproxy/resources/proxy_list.txt
